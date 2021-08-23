@@ -22,7 +22,7 @@ Click [HERE](labs.pdf) to read the instruction for access.
 <div class="col-6">
 <button class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('registration-email').value)">Submit</button>
 </div>
-<div id="lab" class=".container"></div>
+<div id="lab" class=".container .text-monospace"></div>
 
 *Note you will need a confirmed registration to access the lab.*
 
