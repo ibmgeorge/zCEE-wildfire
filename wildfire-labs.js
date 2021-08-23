@@ -41,7 +41,7 @@ function getLab(email) {
         table_data += '<p>Authentication with username: <mark>'+lines[index][2]+'</mark></p>';
         table_data += '<p>Using password: <mark>'+lines[index][5]+'</mark></p>';
         table_data += '<h5>Or using a Remote Desktop Connection <small class="text-muted">(Preferred)</small></h5>';
-        table_data += '<p>Enter in the Computer area this IP address: <br><mark>'+lines[index][3]+'</mark></p>';
+        table_data += '<p>Enter in the Computer area this host name: <br><mark>'+lines[index][3]+'</mark></p>';
         table_data += '<p>Follow the PDF instructions above and authenticate with username: <br><mark>'+lines[index][4]+'</mark></p>';
         table_data += '<p>Same password: <mark>'+lines[index][5]+'</mark></p>';
         table_data += '<p><small>When the password for USER1 is required, enter <mark>USER1</mark>  (USER1 is a RACF identity)</small></p>';
