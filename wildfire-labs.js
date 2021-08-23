@@ -22,8 +22,9 @@ $(document).ready(function () {
         }
     });
 });
+
 function validate() {
-    document.getElementById('btn-submit').disable=(document.getElementById('registration-email').value=='');
+    document.getElementById('btn-submit').disabled=(document.getElementById('registration-email').value=='');
 }
 
 function getLab(email) {
