@@ -11,17 +11,18 @@ Thank you for attending the workshop.
 
 All lab instances are available for 3 days after the workshop finishes.
 
-Click [HERE](labs.pdf) to read the instruction for access.
+Click [HERE](Remote Desktop Windows.pdf){:target="_blank"} to read the instruction for Remote Desktop access.
 
 **Please enter your email address used for registration to retrieve your unique log in details.**
-
+<form>
 <div class="input-group mb-3 col-6">
 <span class="input-group-text" id="basic-addon1">@</span>
-<input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email" maxlength="50">
+<input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email" maxlength="50" required>
 </div>
 <div class="col-6">
 <button class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('registration-email').value)">Submit</button>
 </div>
+</form>
 <div id="lab" class=".container .text-monospace"></div>
 
 *Note you will need a confirmed registration to access the lab.*
