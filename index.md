@@ -15,12 +15,12 @@ Click [HERE](labs.pdf) to read the instruction of access.
 
 <div class="input-group mb-3 col-6">
 <span class="input-group-text" id="basic-addon1">@</span>
-<input type="text" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email">
+<input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email">
 </div>
 <div class="col-6">
 <button class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('registration-email').value)">Submit</button>
 </div>
-<div id="lab" class=".container shadow p-3 mb-5 bg-white rounded"></div>
+<div id="lab" class=".container"></div>
 
 *Note you will need a confirmed registration to access the lab.*
 
