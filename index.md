@@ -10,7 +10,7 @@ Click here to [download](lab.pdf) the instruction of access.
 
 **Please enter your email address used for wildfire workshop registration to retreive your unique logon information below.**
 
-<input type="text" id="email" name="email"/> <input type="button" id="btn" name="OK">
+Email address: <input type="text" id="email" name="email"/> <input type="button" id="btn" value="Submit">
 
 *Note you will need a confirmed registration to access the lab.*
 
