@@ -6,7 +6,7 @@ Thank you for attending the workshop.
 
 You will have the lab instance available for you for 3 days after the workshop finishes. 
 
-Click here to [download](lab.pdf) the instruction of access.
+Click here to [download](labs.pdf) the instruction of access.
 
 **Please enter your email address used for wildfire workshop registration to retreive your unique logon information below.**
 
@@ -14,6 +14,6 @@ Email address: <input type="text" id="email" name="email"/> <input type="button"
 
 *Note you will need a confirmed registration to access the lab.*
 
-### Support or Contact
+### Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble with labs? Shoot an email to [George Ge](mailto: ypge@au1.ibm.com) and we will help you sort it out.
