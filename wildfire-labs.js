@@ -36,13 +36,13 @@ function getLab(email) {
         table_data += '<p>Enter this URL address in the browser’s URL area: <br><mark>'+lines[index][1]+'</mark></p>';
         table_data += '<p>Authentication with username: <mark>'+lines[index][2]+'</mark></p>';
         table_data += '<p>Using password: <mark>'+lines[index][5]+'</mark></p>';
-        table_data += '<h5>Or using a Remote Desktop Connection:<small class="text-muted">Preferred</small></h5>';
+        table_data += '<h5>Or using a Remote Desktop Connection <small class="text-muted">(Preferred)</small></h5>';
         table_data += '<p>Enter in the Computer area this IP address: <mark>'+lines[index][3]+'</mark></p>';
         table_data += '<p>Follow the PDF instructions above and authenticate with username: <mark>'+lines[index][4]+'</mark></p>';
         table_data += '<p>Same password: <mark>'+lines[index][5]+'</mark></p>';
         table_data += '<p><small>When the password for USER1 is required, enter <mark>USER1</mark>  (USER1 is a RACF identity)</small></p>';
         table_data += '<p><small>When the password for Fred is required, enter <mark>fredpwd</mark> (Fred is not a RACF identity and case matters)</small></p>';
-        table_data += '<p><strong>Please DO NOT shut Windows down, just close the session or disconnect from the remote desktop.</strong></p>';
+        table_data += '<p><strong>Please DO NOT shut remote Windows down, just close the session or disconnect from the remote desktop.</strong></p>';
     }
     $('#lab').html(table_data);
 }
