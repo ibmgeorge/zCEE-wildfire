@@ -1,36 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to z/OS Connect EE Wildfire Workshop
 
-You can use the [editor on GitHub](https://github.com/ibmgeorge/zCEE-wildfire/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Thank you for attending the workshop.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Hands-on lab credential
 
-### Markdown
+You will have the lab instance available for you for 3 days after the workshop finishes. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Click here to [download](lab.pdf) the instruction of access.
 
-```markdown
-Syntax highlighted code block
+**Please enter your email address used for wildfire workshop registration to retreive your unique logon information below.**
 
-# Header 1
-## Header 2
-### Header 3
+<input type="text" id="email" name="email"/> <input type="button" id="btn" name="OK">
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ibmgeorge/zCEE-wildfire/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+*Note you will need a confirmed registration to access the lab.*
 
 ### Support or Contact
 
