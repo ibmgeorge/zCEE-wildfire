@@ -5,7 +5,7 @@
 ## Welcome
 Thank you for attending the workshop.
 
-## Accessing hands-on lab
+## Accessing the hands-on lab
 
 All lab instances are available for 3 days after the workshop finishes.
 
