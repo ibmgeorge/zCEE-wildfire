@@ -23,9 +23,10 @@ Click [HERE](Remote Desktop Windows.pdf){:target="_blank"} to read the instructi
 <button id="btn-submit" class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('registration-email').value)" disabled>Submit</button>
 </div>
 </form>
-<div id="lab" class=".container .text-monospace"></div>
-
+<div id="lab" class=".container .text-monospace">
+<br>
 *Note you will need a confirmed registration to access the lab.*
+</div>
 
 ## Contact
 
