@@ -17,10 +17,10 @@ Click [HERE](Remote Desktop Windows.pdf){:target="_blank"} to read the instructi
 <form>
 <div class="input-group mb-3 col-6">
 <span class="input-group-text" id="basic-addon1">@</span>
-<input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email" maxlength="50" required>
+<input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email" maxlength="50" required oninput="validate();">
 </div>
 <div class="col-6">
-<button class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('registration-email').value)">Submit</button>
+<button id="btn-submit" class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('registration-email').value)" disabled>Submit</button>
 </div>
 </form>
 <div id="lab" class=".container .text-monospace"></div>

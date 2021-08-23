@@ -22,6 +22,9 @@ $(document).ready(function () {
         }
     });
 });
+function validate() {
+    document.getElementById('btn-submit').disable=(document.getElementById('registration-email').value=='');
+}
 
 function getLab(email) {
     var hash = String(CryptoJS.MD5(email.trim().toLowerCase()));
