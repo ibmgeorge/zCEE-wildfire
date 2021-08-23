@@ -18,25 +18,25 @@ $(document).ready(function () {
                     lines.push(tarr);
                 }
             }
-//            console.log(lines);
+            //            console.log(lines);
         }
     });
 });
 
 function getLab(email) {
-    var index=-1;
-    for (var i=1;i<lines.length;i++)
-        if (lines[i][0]==email) 
-            index=i;
-    var table_data = '<div class="alert alert-warning" role="alert">User Not Found</div>'
+    var hash = String(CryptoJS.MD5(email));
+    var index = -1;
+    for (var i = 1; i < lines.length; i++)
+        if (lines[i][0] == hash)
+            index = i;
+    var table_data = '<div class="alert alert-warning" role="alert">Email not found.</div>'
     if (index != -1) {
         table_data = '<dl class="row">';
-        for (var i=1;i<lines[index].length-2;i++) {
-            table_data += '<dt class="col-sm-4">' + lines[0][i] +  '</dt>';
-            table_data += '<dd class="col-sm-8">' + lines[index][i] +  '</dd>';
+        for (var i = 1; i < lines[index].length - 2; i++) {
+            table_data += '<dt class="col-sm-4">' + lines[0][i] + '</dt>';
+            table_data += '<dd class="col-sm-8">' + lines[index][i] + '</dd>';
         }
         table_data += '</dl>';
     }
-    $('#lab').addClass('shadow p-3 mb-5 bg-white rounded');
     $('#lab').html(table_data);
 }
