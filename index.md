@@ -14,7 +14,7 @@ All lab instances are available for 3 days after the workshop finishes.
 Click [HERE](Remote Desktop Windows.pdf){:target="_blank"} to read the instruction for Remote Desktop access.
 
 **Please enter your email address used for registration to retrieve your unique log in details.**
-<form>
+<form onsubmit="return false;">
 <div class="input-group mb-3 col-6">
 <span class="input-group-text" id="basic-addon1">@</span>
 <input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email" maxlength="50" required oninput="validate();">
