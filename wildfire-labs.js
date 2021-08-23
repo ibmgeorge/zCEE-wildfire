@@ -37,5 +37,6 @@ function getLab(email) {
         }
         table_data += '</dl>';
     }
+    $('#lab').addClass('shadow p-3 mb-5 bg-white rounded');
     $('#lab').html(table_data);
 }
