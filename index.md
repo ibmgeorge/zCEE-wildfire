@@ -15,7 +15,7 @@ Click [HERE](labs.pdf) to read the instruction for access.
 
 <div class="input-group mb-3 col-6">
 <span class="input-group-text" id="basic-addon1">@</span>
-<input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email">
+<input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email" maxlength="50">
 </div>
 <div class="col-6">
 <button class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('registration-email').value)">Submit</button>
