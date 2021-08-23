@@ -24,7 +24,7 @@ $(document).ready(function () {
 });
 
 function getLab(email) {
-    var hash = String(CryptoJS.MD5(email));
+    var hash = String(CryptoJS.MD5(email.trim().toLowerCase()));
     var index = -1;
     for (var i = 1; i < lines.length; i++)
         if (lines[i][0] == hash)
