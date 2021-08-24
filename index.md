@@ -30,10 +30,7 @@ All lab instructions are in the "Lab Docs" folder on your remote desktop, or can
 </div>
 </form>
 <div id="lab" class=".container .text-monospace">
-<br>
-
-*Note you will need a confirmed registration to access the lab.
-
+<em>Note you will need a confirmed registration to access the lab.</em>
 </div>
 
 ## Contact
