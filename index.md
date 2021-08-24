@@ -14,7 +14,7 @@ Click [here](ZCONNEE - Introduction to zOS Connect EE.pdf){:target="_blank"} to 
   
 All lab instances are available for 3 days after the workshop finishes.
   
-Click [HERE](Remote Desktop Windows.pdf){:target="_blank"} to read the instruction for Remote Desktop access.
+Click [here](Remote Desktop Windows.pdf){:target="_blank"} to read the instruction for Remote Desktop access.
   
 All lab instructions are in the desktop folder in your remote environment, or can be downloaded from [here](https://github.com/ibm-wsc/zCONNEE-Wildfire-Workshop){:target="_blank"} to view it locally.
   
