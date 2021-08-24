@@ -7,15 +7,18 @@
 ## Welcome
 
 Thank you for attending the workshop. 
+  
 Click [here](ZCONNEE - Introduction to zOS Connect EE.pdf){:target="_blank"} to download the presentation.
-
+  
 ## Accessing the hands-on lab
-
+  
 All lab instances are available for 3 days after the workshop finishes.
-
+  
 Click [HERE](Remote Desktop Windows.pdf){:target="_blank"} to read the instruction for Remote Desktop access.
-
-**Please enter your email address used for registration to retrieve your unique log in details.**
+  
+All lab instructions are in the desktop folder in your remote environment, or can be downloaded from [here](https://github.com/ibm-wsc/zCONNEE-Wildfire-Workshop){:target="_blank"} to view it locally.
+  
+** Please enter your email address used for registration to retrieve your unique log in details.**
 <form onsubmit="return false;">
 <div class="input-group mb-3 col-6">
 <span class="input-group-text" id="basic-addon1">@</span>
@@ -27,9 +30,11 @@ Click [HERE](Remote Desktop Windows.pdf){:target="_blank"} to read the instructi
 </form>
 <div id="lab" class=".container .text-monospace">
 <br>
+  
 *Note you will need a confirmed registration to access the lab.*
+  
 </div>
-
+  
 ## Contact
-
+  
 Having trouble with labs? Send an email to [George Ge](mailto: ypge@au1.ibm.com) and we will help you sort it out.
