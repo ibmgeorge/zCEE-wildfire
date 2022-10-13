@@ -18,12 +18,12 @@ Click [here](Remote Desktop Windows.pdf){:target="_blank"} to read the instructi
 
 All lab instructions are in the "Labs" folder on your remote desktop, or can be downloaded from [here](https://github.com/ibm-wsc/zCONNEE-Wildfire-Workshop){:target="_blank"} to view it locally.
 
-**Please enter your instance id assigned to retrieve your unique log in details.**
+**Please enter your 4 digit instance id assigned to retrieve your unique log in details.**
 
 <form onsubmit="return false;">
 <div class="input-group mb-3 col-6">
 <span class="input-group-text" id="basic-addon1">#</span>
-<input type="text" class="form-control" placeholder="Instance ID" aria-label="Instance ID" aria-describedby="basic-addon1" id="instance-id" maxlength="2" required oninput="validate();">
+<input type="text" class="form-control" placeholder="Instance ID" aria-label="Instance ID" aria-describedby="basic-addon1" id="instance-id" maxlength="4" required oninput="validate();">
 </div>
 <div class="col-6">
 <button id="btn-submit" class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('instance-id').value)" disabled>Submit</button>
