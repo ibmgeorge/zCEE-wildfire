@@ -16,17 +16,17 @@ All lab instances are available for 3 days after the workshop finishes.
 
 Click [here](Remote Desktop Windows.pdf){:target="_blank"} to read the instruction for Remote Desktop access.
 
-All lab instructions are in the "Lab Docs" folder on your remote desktop, or can be downloaded from [here](https://github.com/ibm-wsc/zCONNEE-Wildfire-Workshop){:target="_blank"} to view it locally.
+All lab instructions are in the "Labs" folder on your remote desktop, or can be downloaded from [here](https://github.com/ibm-wsc/zCONNEE-Wildfire-Workshop){:target="_blank"} to view it locally.
 
-**Please enter your email address used for registration to retrieve your unique log in details.**
+**Please enter your instance id assigned to retrieve your unique log in details.**
 
 <form onsubmit="return false;">
 <div class="input-group mb-3 col-6">
-<span class="input-group-text" id="basic-addon1">@</span>
-<input type="email" class="form-control" placeholder="Registration Email" aria-label="Email" aria-describedby="basic-addon1" id="registration-email" maxlength="50" required oninput="validate();">
+<span class="input-group-text" id="basic-addon1">#</span>
+<input type="text" class="form-control" placeholder="Instance ID" aria-label="Instance ID" aria-describedby="basic-addon1" id="instance-id" maxlength="2" required oninput="validate();">
 </div>
 <div class="col-6">
-<button id="btn-submit" class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('registration-email').value)" disabled>Submit</button>
+<button id="btn-submit" class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('instance-id').value)" disabled>Submit</button>
 </div>
 </form>
 <div id="lab" class=".container .text-monospace">

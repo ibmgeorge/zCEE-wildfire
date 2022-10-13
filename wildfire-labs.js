@@ -2,7 +2,7 @@ var lines = [];
 
 $(document).ready(function () {
     $.ajax({
-        url: "labs.csv",
+        url: "mel.csv",
         dataType: "text",
         success: function (data) {
             var allTextLines = data.split(/\r\n|\n/);
@@ -24,16 +24,16 @@ $(document).ready(function () {
 });
 
 function validate() {
-    document.getElementById('btn-submit').disabled=(document.getElementById('registration-email').value=='');
+    document.getElementById('btn-submit').disabled=(document.getElementById('instance-id').value=='');
 }
 
-function getLab(email) {
-    var hash = String(CryptoJS.MD5(email.trim().toLowerCase()));
+function getLab(instance) {
+    // var hash = String(CryptoJS.MD5(email.trim().toLowerCase()));
     var index = -1;
     for (var i = 1; i < lines.length; i++)
-        if (lines[i][0] == hash)
+        if (lines[i][7] == instance)
             index = i;
-    var table_data = '<div class="alert alert-warning" role="alert">Email not found.</div>'
+    var table_data = '<div class="alert alert-warning" role="alert">Instance ID not found.</div>'
     if (index != -1) {
         table_data =  '<p>Below is the information you will need to access the exercises:</p>';
         table_data += '<h5>Using a web browser</h5>';
@@ -45,8 +45,8 @@ function getLab(email) {
         table_data += '<p>Follow the PDF instructions above and authenticate with username: <br><mark>'+lines[index][4]+'</mark></p>';
         table_data += '<p>Same password: <mark>'+lines[index][5]+'</mark></p>';
         table_data += '<h5>During the lab</h5>';
-        table_data += '<p>When the password for USER1 is required, enter <mark>USER1</mark>  (USER1 is a RACF identity)</p>';
-        table_data += '<p>When the password for Fred is required, enter <mark>fredpwd</mark> (Fred is not a RACF identity and case matters)</p>';
+        table_data += '<p>When the password for IBMUSER is required, enter <mark>SYS1</mark>  (IBMUSER is a RACF identity)</p>';
+        table_data += '<p>When the password for ibmdev is required, enter <mark>Passw0rd</mark> (ibmdev is for Gitlab login)</p>';
         table_data += '<p><strong>IMPORTANT: <br>Please DO NOT shutdown remote Windows system, just close the session or disconnect from the remote desktop. Otherwise you won&apos;t be able to reconnect.</strong></p>';
     }
     $('#lab').html(table_data);
